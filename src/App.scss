@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&display=swap");
+.App {
+  padding: 0;
+  margin: 0;
+  margin: 0 30vh;
+  width: 65%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1130px) {
+  .App {
+    margin: 15vh 15vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .App {
+    margin: 2vh 2vh;
+  }
+}

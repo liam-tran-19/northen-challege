@@ -1,0 +1,65 @@
+.form {
+  &__input {
+    display: flex;
+    margin: 40px 0;
+    &__email {
+      font-family: "Merriweather", serif;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 65px;
+      width: 50%;
+      margin-right: 10px;
+      border-radius: 5px;
+      text-indent: 10px;
+      outline: none;
+      border: none;
+    }
+  }
+
+  &__input select {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 65px;
+    width: 50%;
+    border-radius: 5px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+  }
+
+  &__signup {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    line-height: 65px;
+    background: #d02035;
+    border: 1px solid #d02035;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  &__signup:hover {
+    cursor: pointer;
+  }
+
+  &__error {
+    display: flex;
+    color: white;
+    font-size: 12px;
+    font-family: "Merriweather", serif;
+    text-align: right;
+    margin-bottom: -40px;
+    &__email {
+      width: 50%;
+    }
+    &__interests {
+      width: 50%;
+    }
+  }
+}
+.invalid {
+  border: 3px solid #d02035;
+}

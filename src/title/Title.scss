@@ -1,0 +1,20 @@
+.title {
+  margin: 65px 0;
+  color: white;
+  &__not-signUp {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+  }
+
+  &__signUp {
+    &__thanks {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 35px;
+    }
+    &__message {
+      font-family: 'Merriweather', serif;
+      font-size: 20px;
+    }
+  }
+}

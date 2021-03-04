@@ -1,0 +1,16 @@
+.header {
+  &__heading {
+    // text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 65px;
+    color: white;
+  }
+  &__red-line {
+    // color: #d02035;
+    height: 10px;
+    width: 30%;
+    border: 1px 1px;
+    background: #d02035;
+    align-items: center;
+  }
+}
